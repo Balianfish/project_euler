@@ -21,7 +21,7 @@ int find_max_prime_factor(const long int m)
   }
   while(true)
   {
-    start += 1;
+    start += 2;
     bool prime = true;
     for (std::list<int>::iterator it = prime_list.begin(); it != prime_list.end(); it++)
     {
